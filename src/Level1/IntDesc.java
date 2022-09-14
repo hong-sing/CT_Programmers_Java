@@ -26,7 +26,7 @@ class Solution {
 			st = st + Integer.toString(iarr[i]);
 		}//for end
 		
-		//return값이 long이므로 문자열을 long형으로 
+		//return값이 long이므로 문자열을 long형으로 변환
 		answer = Long.parseLong(st);
 		return answer;
 	}//solution() end
