@@ -21,18 +21,17 @@ class Solutionb {
 		int[] iarr = new int[s.length()];
 		String st = "";
 		for (int i=0; i<s.length(); i++) {
-<<<<<<< HEAD
+
 			//문자열 변환을 위해 Integer[]를 int[]로 언박싱
-=======
+
 			//Integer[]를 int[]로 언박싱
->>>>>>> refs/remotes/origin/master
+
 			iarr[i] = arr[i];
 			st = st + Integer.toString(iarr[i]);
-<<<<<<< HEAD
-		}//for end		
-=======
-		}//for end
->>>>>>> refs/remotes/origin/master
+
+		}//for end	
+
+
 		
 		//return값이 long이므로 문자열을 long형으로 변환
 		answer = Long.parseLong(st);
@@ -43,9 +42,8 @@ class Solutionb {
 public class IntDesc {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		Solution a = new Solution();
+		Solutionb a = new Solutionb();
 		System.out.println(a.solution(118372));
 	}
 
