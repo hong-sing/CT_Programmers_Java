@@ -1,7 +1,5 @@
 package Level1;
 
-import java.util.Arrays;
-
 public class MATRIX_ADDITION {
 
     public int[][] solution(int[][] arr1, int[][] arr2) {
